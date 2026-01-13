@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: './',
+    base: '/paolema/',
     build: {
       outDir: 'dist',
       rollupOptions: {
