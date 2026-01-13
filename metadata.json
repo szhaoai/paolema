@@ -1,0 +1,7 @@
+{
+  "name": "泡了吗？",
+  "description": "专为博主和粉丝打造的线下活动组织平台。轻松参与同城聚会、杀猪宴和露营局。",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
