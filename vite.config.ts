@@ -8,9 +8,14 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: './', 
+    base: './',
     build: {
       outDir: 'dist',
+      rollupOptions: {
+        input: {
+          main: 'index.html',
+        },
+      },
     },
     // This allows the code to access process.env.API_KEY in the browser
     // Defaults to empty string if not found, enabling Demo Mode
